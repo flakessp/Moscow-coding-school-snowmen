@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Пример анимации</title>
+  <style>
+    .slidein {
+      animation: slidein 3s forwards cubic-bezier(0, 1.52, 0.45, 0.94);
+    }
+
+    @keyframes slidein {
+      0% {
+        margin-left:100%;
+        width: 300%;
+        color: blue;
+      }
+      50%{
+        color: red;
+      }
+      100% {
+        margin-left: 0;
+        width: 100%;
+        color: blue;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <p class="slidein">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non officia fugiat nostrum earum porro totam laborum consectetur, atque odit. Fuga iure numquam repudiandae recusandae consectetur voluptas expedita enim temporibus, blanditiis.
+  </p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptate alias minus, mollitia nesciunt molestiae. A vero quam temporibus, ab pariatur mollitia, dolores, voluptatibus quisquam illo iste delectus, impedit reiciendis.</p>
+  <h1 class="slidein">hello world</h1>
+</body>
+</html>
