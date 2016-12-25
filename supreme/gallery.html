@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Supreme-gallery</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <style>
+
+   /* ОБЩИЕ СТИЛИ */
+
+    html {
+      font-size: 11px;
+      font-family: "Courier New", Courier, Monaco, serif;
+
+    }
+
+    /* ЗАГОЛОВОК */
+
+    .header {
+      text-align: center;
+      margin-bottom: 35px;
+      margin-top: 100px;
+    }
+    .logo {
+      margin-bottom: 10px;
+    }
+
+    
+
+    .main {
+      position: relative;
+    }
+
+
+    .logo img {
+      transition: 2s;
+      position: relative;
+      top: 0;
+    }
+
+    .logo img:hover {
+      top: 100px;
+    }
+
+    .container {
+      width: 620px;
+      margin: 0 auto;
+    }
+
+    .main {
+      line-height: 0;
+      margin-bottom: 35px;
+    }
+
+    .main img {
+      display: inline-block;
+      margin-right: 3px;
+      margin-bottom: 3px;
+      opacity: .3;
+      transition: .5s ease-in-out;
+    }
+
+    .main img:hover {
+      opacity: 1;
+    }
+
+
+
+    .navigation li {
+      display: inline-block;
+      margin-right: 8px;
+    }
+
+    .footer a {
+      color: black;
+      text-decoration: none;
+      transition: .5s;
+    }
+
+    .footer a:hover {
+      background: red;
+      color: white;
+    }
+
+    .navigation .last-link {
+      margin-right: 45px;
+    }
+
+    a.red-link {
+      color: red;
+    }
+
+
+
+    @media screen and (max-width: 320px) {
+      .container {
+        width: 310px;
+      }
+      .header {
+        margin-top: 50px;
+      }
+      .navigation li {
+        display: block;
+        margin-right: auto;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding-left: 15px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <img src="img/logo.png" alt="">
+      </div>
+      <div class="time">
+        12/24/2016 09:21am NYC
+      </div>
+    </div>
+    <div class="main">
+      <img src="img/gallery/1.jpg" alt=""><img src="img/gallery/2.jpg" alt=""><img class="positioned" src="img/gallery/3.jpg" alt=""><img src="img/gallery/4.jpg" alt=""><img src="img/gallery/5.jpg" alt=""><img src="img/gallery/6.jpg" alt=""><img src="img/gallery/7.jpg" alt=""><img src="img/gallery/8.jpg" alt=""><img src="img/gallery/9.jpg" alt=""><img src="img/gallery/10.png" alt=""><img src="img/gallery/11.png" alt=""><img src="img/gallery/12.png" alt=""><img src="img/gallery/13.png" alt=""><img src="img/gallery/14.png" alt=""><img src="img/gallery/15.png" alt=""><img src="img/gallery/16.png" alt=""><img src="img/gallery/17.png" alt=""><img src="img/gallery/18.png" alt=""><img src="img/gallery/19.png" alt=""><img src="img/gallery/20.png" alt=""><img src="img/gallery/21.png" alt=""><img src="img/gallery/22.png" alt=""><img src="img/gallery/23.png" alt=""><img src="img/gallery/24.png" alt=""><img src="img/gallery/25.png" alt=""><img src="img/gallery/26.png" alt=""><img src="img/gallery/27.png" alt=""><img src="img/gallery/28.png" alt=""><img src="img/gallery/29.png" alt=""><img src="img/gallery/30.png" alt=""><img src="img/gallery/31.png" alt=""><img src="img/gallery/32.png" alt=""><img src="img/gallery/33.png" alt=""><img src="img/gallery/34.png" alt=""><img src="img/gallery/35.png" alt=""><img src="img/gallery/36.png" alt="">
+    </div>
+    <div class="footer">
+      <ul class="navigation">
+        <li><a href="">home</a></li>
+        <li><a href="">shop</a></li>
+        <li><a href="">news</a></li>
+        <li><a href="">fall/winter 2016 preview</a></li>
+        <li><a href="">random</a></li>
+        <li><a href="">about</a></li>
+        <li class="last-link"><a href="">stores</a></li>
+        <li><a href="">view all</a></li>
+        <li><a class="red-link" href="">lookbook</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
