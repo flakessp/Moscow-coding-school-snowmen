@@ -73,3 +73,7 @@ input {
 .full-width {
   max-width: none;
 }
+
+a {
+  color: #e81c4f;
+}
