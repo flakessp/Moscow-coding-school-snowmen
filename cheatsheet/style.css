@@ -74,6 +74,10 @@ input {
   max-width: none;
 }
 
-a {
+h2 {
   color: #e81c4f;
+}
+
+iframe {
+  max-width: 100%;
 }
